@@ -11,7 +11,7 @@ import RecordCard from './RecordCard';
 const Sidebar: FC<{
   data: RecordCardItem[];
 }> = ({ data }) => {
-  const [keyword, setKeyword] = useState('');
+  const [keyword, setKeyword] = useState('测试');
   // import modal
   const [visible, setVisible] = useState(false);
   const { i18n, currentId, setCurrentId, conversations, setConversations } =
